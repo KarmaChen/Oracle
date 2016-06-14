@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E65C32A01D10514500D7A981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E65C329F1D10514500D7A981 /* main.m */; };
+		E65C32A31D10514500D7A981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E65C32A21D10514500D7A981 /* AppDelegate.m */; };
+		E65C32A61D10514500D7A981 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65C32A51D10514500D7A981 /* ViewController.m */; };
+		E65C32A91D10514500D7A981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65C32A71D10514500D7A981 /* Main.storyboard */; };
+		E65C32AB1D10514500D7A981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65C32AA1D10514500D7A981 /* Assets.xcassets */; };
+		E65C32AE1D10514500D7A981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65C32AC1D10514500D7A981 /* LaunchScreen.storyboard */; };
+		E65C32B91D10514500D7A981 /* OracleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E65C32B81D10514500D7A981 /* OracleTests.m */; };
+		E65C32C41D10514500D7A981 /* OracleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E65C32C31D10514500D7A981 /* OracleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E65C32B51D10514500D7A981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E65C32931D10514500D7A981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65C329A1D10514500D7A981;
+			remoteInfo = Oracle;
+		};
+		E65C32C01D10514500D7A981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E65C32931D10514500D7A981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65C329A1D10514500D7A981;
+			remoteInfo = Oracle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E65C329B1D10514500D7A981 /* Oracle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oracle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65C329F1D10514500D7A981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E65C32A11D10514500D7A981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E65C32A21D10514500D7A981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E65C32A41D10514500D7A981 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E65C32A51D10514500D7A981 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E65C32A81D10514500D7A981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E65C32AA1D10514500D7A981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E65C32AD1D10514500D7A981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E65C32AF1D10514500D7A981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65C32B41D10514500D7A981 /* OracleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65C32B81D10514500D7A981 /* OracleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OracleTests.m; sourceTree = "<group>"; };
+		E65C32BA1D10514500D7A981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65C32BF1D10514500D7A981 /* OracleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65C32C31D10514500D7A981 /* OracleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OracleUITests.m; sourceTree = "<group>"; };
+		E65C32C51D10514500D7A981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E65C32981D10514500D7A981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C32B11D10514500D7A981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C32BC1D10514500D7A981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E65C32921D10514500D7A981 = {
+			isa = PBXGroup;
+			children = (
+				E65C329D1D10514500D7A981 /* Oracle */,
+				E65C32B71D10514500D7A981 /* OracleTests */,
+				E65C32C21D10514500D7A981 /* OracleUITests */,
+				E65C329C1D10514500D7A981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E65C329C1D10514500D7A981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E65C329B1D10514500D7A981 /* Oracle.app */,
+				E65C32B41D10514500D7A981 /* OracleTests.xctest */,
+				E65C32BF1D10514500D7A981 /* OracleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E65C329D1D10514500D7A981 /* Oracle */ = {
+			isa = PBXGroup;
+			children = (
+				E65C32A11D10514500D7A981 /* AppDelegate.h */,
+				E65C32A21D10514500D7A981 /* AppDelegate.m */,
+				E65C32A41D10514500D7A981 /* ViewController.h */,
+				E65C32A51D10514500D7A981 /* ViewController.m */,
+				E65C32A71D10514500D7A981 /* Main.storyboard */,
+				E65C32AA1D10514500D7A981 /* Assets.xcassets */,
+				E65C32AC1D10514500D7A981 /* LaunchScreen.storyboard */,
+				E65C32AF1D10514500D7A981 /* Info.plist */,
+				E65C329E1D10514500D7A981 /* Supporting Files */,
+			);
+			path = Oracle;
+			sourceTree = "<group>";
+		};
+		E65C329E1D10514500D7A981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65C329F1D10514500D7A981 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E65C32B71D10514500D7A981 /* OracleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E65C32B81D10514500D7A981 /* OracleTests.m */,
+				E65C32BA1D10514500D7A981 /* Info.plist */,
+			);
+			path = OracleTests;
+			sourceTree = "<group>";
+		};
+		E65C32C21D10514500D7A981 /* OracleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E65C32C31D10514500D7A981 /* OracleUITests.m */,
+				E65C32C51D10514500D7A981 /* Info.plist */,
+			);
+			path = OracleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E65C329A1D10514500D7A981 /* Oracle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65C32C81D10514500D7A981 /* Build configuration list for PBXNativeTarget "Oracle" */;
+			buildPhases = (
+				E65C32971D10514500D7A981 /* Sources */,
+				E65C32981D10514500D7A981 /* Frameworks */,
+				E65C32991D10514500D7A981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oracle;
+			productName = Oracle;
+			productReference = E65C329B1D10514500D7A981 /* Oracle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E65C32B31D10514500D7A981 /* OracleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65C32CB1D10514500D7A981 /* Build configuration list for PBXNativeTarget "OracleTests" */;
+			buildPhases = (
+				E65C32B01D10514500D7A981 /* Sources */,
+				E65C32B11D10514500D7A981 /* Frameworks */,
+				E65C32B21D10514500D7A981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E65C32B61D10514500D7A981 /* PBXTargetDependency */,
+			);
+			name = OracleTests;
+			productName = OracleTests;
+			productReference = E65C32B41D10514500D7A981 /* OracleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E65C32BE1D10514500D7A981 /* OracleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65C32CE1D10514500D7A981 /* Build configuration list for PBXNativeTarget "OracleUITests" */;
+			buildPhases = (
+				E65C32BB1D10514500D7A981 /* Sources */,
+				E65C32BC1D10514500D7A981 /* Frameworks */,
+				E65C32BD1D10514500D7A981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E65C32C11D10514500D7A981 /* PBXTargetDependency */,
+			);
+			name = OracleUITests;
+			productName = OracleUITests;
+			productReference = E65C32BF1D10514500D7A981 /* OracleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E65C32931D10514500D7A981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈昆涛";
+				TargetAttributes = {
+					E65C329A1D10514500D7A981 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E65C32B31D10514500D7A981 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E65C329A1D10514500D7A981;
+					};
+					E65C32BE1D10514500D7A981 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E65C329A1D10514500D7A981;
+					};
+				};
+			};
+			buildConfigurationList = E65C32961D10514500D7A981 /* Build configuration list for PBXProject "Oracle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E65C32921D10514500D7A981;
+			productRefGroup = E65C329C1D10514500D7A981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E65C329A1D10514500D7A981 /* Oracle */,
+				E65C32B31D10514500D7A981 /* OracleTests */,
+				E65C32BE1D10514500D7A981 /* OracleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E65C32991D10514500D7A981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65C32AE1D10514500D7A981 /* LaunchScreen.storyboard in Resources */,
+				E65C32AB1D10514500D7A981 /* Assets.xcassets in Resources */,
+				E65C32A91D10514500D7A981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C32B21D10514500D7A981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C32BD1D10514500D7A981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E65C32971D10514500D7A981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65C32A61D10514500D7A981 /* ViewController.m in Sources */,
+				E65C32A31D10514500D7A981 /* AppDelegate.m in Sources */,
+				E65C32A01D10514500D7A981 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C32B01D10514500D7A981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65C32B91D10514500D7A981 /* OracleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C32BB1D10514500D7A981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65C32C41D10514500D7A981 /* OracleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E65C32B61D10514500D7A981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E65C329A1D10514500D7A981 /* Oracle */;
+			targetProxy = E65C32B51D10514500D7A981 /* PBXContainerItemProxy */;
+		};
+		E65C32C11D10514500D7A981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E65C329A1D10514500D7A981 /* Oracle */;
+			targetProxy = E65C32C01D10514500D7A981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E65C32A71D10514500D7A981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65C32A81D10514500D7A981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E65C32AC1D10514500D7A981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65C32AD1D10514500D7A981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E65C32C61D10514500D7A981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E65C32C71D10514500D7A981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E65C32C91D10514500D7A981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oracle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.Oracle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E65C32CA1D10514500D7A981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Oracle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.Oracle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E65C32CC1D10514500D7A981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OracleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.OracleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oracle.app/Oracle";
+			};
+			name = Debug;
+		};
+		E65C32CD1D10514500D7A981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OracleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.OracleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oracle.app/Oracle";
+			};
+			name = Release;
+		};
+		E65C32CF1D10514500D7A981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OracleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.OracleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Oracle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E65C32D01D10514500D7A981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OracleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.OracleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Oracle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E65C32961D10514500D7A981 /* Build configuration list for PBXProject "Oracle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65C32C61D10514500D7A981 /* Debug */,
+				E65C32C71D10514500D7A981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65C32C81D10514500D7A981 /* Build configuration list for PBXNativeTarget "Oracle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65C32C91D10514500D7A981 /* Debug */,
+				E65C32CA1D10514500D7A981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E65C32CB1D10514500D7A981 /* Build configuration list for PBXNativeTarget "OracleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65C32CC1D10514500D7A981 /* Debug */,
+				E65C32CD1D10514500D7A981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E65C32CE1D10514500D7A981 /* Build configuration list for PBXNativeTarget "OracleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65C32CF1D10514500D7A981 /* Debug */,
+				E65C32D01D10514500D7A981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E65C32931D10514500D7A981 /* Project object */;
+}
